@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>PSHS Knowledge Hub - CLC:Log in</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">            
+            <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Lilita+One&family=Oswald:wght@700&family=Poppins:wght@300;900&display=swap" rel="stylesheet">           
+            <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Lilita+One&family=Montserrat:wght@500;600&family=Oswald:wght@700&family=Poppins:wght@300;900&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Lilita+One&family=Montserrat:wght@500;600&family=Oswald:wght@700&family=Poppins:wght@300;900&family=Quicksand:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Lilita+One&family=Montserrat:wght@500;600&family=Oswald:wght@700&family=Poppins:wght@300;900&family=Quicksand:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Lilita+One&family=Montserrat:wght@500;600&family=Oswald:wght@700&family=Poppins:wght@300;900&family=Quicksand:wght@300;500;700&family=Roboto+Condensed&display=swap" rel="stylesheet">           
+            
+            <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                background-size: cover;
+                background-position: cover;
+                font-size: 15px;
+            }
+            
+            section{
+                text-align: center; 
+                box-sizing: border-box;
+                background: rgba(205, 198, 198, 0.8);
+                box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+                top: 50%;
+                left: 50%;
+                width: 970px;
+                height: 510px;
+                transform: translate(-50%, -50%);
+                position: absolute;
+                padding: 70px 30px;
+                border-radius: 10px;
+                margin-top: -30px;
+            }
+
+            form input{
+                width: 90%;
+                margin-bottom: 20px;
+            }
+
+            form input[type="text"], input[type="password"] {
+                border: none;
+                border-bottom: 1px solid #fff;
+                background: transparent;
+                color: black;
+                outline: none;
+                height: 40px;
+            }
+
+            form input[type="submit"] {
+                width: 410px;
+                height: 40px;
+                font-size: 20px;
+                border-radius: 100px;
+                background-color: white;
+                outline: none;
+                border: 1px solid white;
+                font-family: 'Quicksand', sans-serif;                
+                color: black;
+                cursor: pointer;
+            }
+
+            form input[type="submit"]:hover{
+                content: '';
+                background: #C5C6C7;
+                border: 1px solid #C5C6C7;
+                color: black;
+                font-family: 'Quicksand', sans-serif;            
+            }
+
+            .light{
+                font-size: 15px;
+                font-style: normal;
+            }
+
+            form a img{
+                position: relative;
+                width: 30px;
+            }
+
+            form p{
+                color: black;
+            }
+
+            header {
+                background: linear-gradient(rgba(133, 133, 133, 0.8), rgba(0,0,0,0.6)), url(pshs.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+            }
+
+            header section table, tr, td {
+                font-size: 15px;
+                border-collapse: collapse;
+                table-layout: fixed;
+                width: 450px;
+                height: 100px;
+                overflow: auto;
+                margin-bottom: 50px;
+                margin-top: -50px;
+                word-wrap: break-word;
+            }
+
+            td{
+                table-layout: fixed;
+            }
+
+            tr{
+                
+                table-layout: fixed;
+            }
+
+            td img{
+                width: 450px;
+                text-align: start;
+            }
+
+            table tr td h1{
+                margin: 0;
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+            }
+
+            
+            a:visited{
+                color: blue;
+                text-decoration: none;
+            }
+
+            .table2 a:visited{
+                color: skyblue;
+            }
+
+            .table2 a:link{
+                color: skyblue;
+            }
+            
+            a:link { text-decoration: none; }
+            a:visited { text-decoration: none; }
+            a:hover { text-decoration: none; }
+            a:active { text-decoration: none; }
+
+            footer{
+                background-color: rgba(0, 0, 0, 0.7);
+                bottom: 0;
+                position: fixed;
+                color: white;
+                width: 1536px;
+                height: 50px;
+                font-size: 13px;
+                transition: 1s;
+            }
+
+            footer:hover{
+                content: '';
+                background-color: rgba(0, 0, 0, 0.7);
+                height: 130px;
+            }
+
+            footer p{
+                margin-left: 20px;
+            }
+
+            footer img{
+                width: 25px;
+                margin-bottom: -2.3px;
+            }
+
+            .table2 tr td{
+                color: white;
+                width: 1536px;
+                text-align: center;
+                font-size: 15px;
+            }
+
+            .phone img{
+                width: 15px;
+            }
+        </style>
+    </head>
+    <body>
+      <header>
+        <section>
+            <table style="margin-bottom: 100px;">
+                <tr>
+                    <td style="border-right: 3px solid #CACAD0;">
+                        <img src="logo.png" alt="logo">
+                        <form>
+                        <input type="text" name="" placeholder="Username or Email"><br/>
+                        <input type="password" name="" placeholder="Password"><br/>
+                        <a href="home.html"><input type="submit" name="" value="Log in"></a><br/>
+                        <a href="#">Forgot password?</a>
+                        <p>Or sign in with</p>
+                        <a href="#" style="text-decoration: none;"><img src="google.png"></a>
+                        <i class="far fa-eye" id="togglePassword"></i>
+                    </form>
+                </td>
+                    <td style="position: relative; left: 15px;">
+                        <h1>Welcome to PSHS-CLC Knowledge Hub!</h1><br/>
+                        <p>Log in with your username/email and password, or sign in with Google.<br/><br/>Philippine Sceince High School Central Luzon Campus (PSHS-CLC), the 11th campus of the Philippine Sceince High School System, grants scholarship to students skilled in Science and Mathematics. <br/><br/>Admission to this campus is by passing the National Competitive Examination (NCE) organized by the PSHS administration anually, and only Filipino students are qualified to take part in this examination.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </header>
+    <footer>
+        <table class="table2">
+            <tr style="height: 40px;">
+                <td colspan="3" style="height: 10px;">Copyright &copy; 2023. All rights reserved.</td>
+            </tr>
+            <tr>
+                <td style="width: 30%;">Visit us at:<br/><a href="https://web.facebook.com/pshsclc" target="_blank"><img src="facebook.png" alt="facebook logo"></a>&nbsp&nbsp&nbsp<a href="https://twitter.com/PSHS_CLC" target="_blank"><img src="twitter.png" alt="twitter logo"></a>&nbsp&nbsp&nbsp<a href="https://t.co/pkI2fnlVcQ" target="_blank"><img src="chrome.png" alt="chrome logo"></a></td>
+                <td class="phone" style="width: 40%; font-size: 15px;">Contact us:<br/><img src="telephone.png" alt="telephone">&nbsp&nbsp&nbsp(045) 499-0136 or (045) 499-5597<br/><img src="smartphone.png" alt="smartphone">&nbsp&nbsp&nbsp(+63) 925-477-7417 (Smart/TNT/SUN) or (+63) 945-407-0251 (Globe/TM)</td>
+                <td style="width: 30%;"><a href="https://pshs.edu.ph/downloads/admission_forms/2022%20RACE%20Application%20Form.pdf" target="_blank">Application</a> for PSHS 2023 Requirement for Admission, Criteria, and Evalutaion (RACE) for SY 2024-2025.</td>
+            </tr>
+        </table>
+    </footer>
+    </body>
+</html>

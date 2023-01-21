@@ -1,0 +1,9 @@
+.red {
+    background:#f97171;
+}
+.orange {
+    background:#f99e50;
+}
+.yellow {
+    background:#f5d55f;
+}

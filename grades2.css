@@ -1,0 +1,51 @@
+.late{
+    color: red;
+    font-size: smaller;
+}
+
+.heh .th{
+    text-align: left;
+}
+.heh .td{
+    text-align: left;
+}
+
+.material-icons{
+    font-size: 50px;
+}
+
+.material-icons:hover{
+    color: rgb(71, 108, 126);
+}
+
+.grade{
+    background-color: rgb(96, 212, 96);
+    padding: 4px 8px;
+    border-radius: 30px;
+    font-size: 12.5px;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+.pending{
+    font-style: italic;
+    font-size: 12.5px;
+    color: gray;
+    font-weight: 800;
+    background-color: rgb(206, 206, 206);
+    padding: 4px 8px;
+    border-radius: 30px;
+    line-height: 50px;
+}
+
+.rev .material-icons{
+    color: rgb(178, 139, 215);
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.table{
+    position: absolute;
+}

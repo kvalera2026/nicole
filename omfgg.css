@@ -1,0 +1,50 @@
+.columns {
+    Width: 50%;
+    }
+    .column {
+      width:100%;
+    }
+    @media (min-width: 48em) {
+      .column {
+        width: 50%;
+        float:left;
+      }
+      .columns {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+
+    .hello{
+        width: 90%;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: auto;
+        background-color: #393939;
+        text-indent: 20px;
+        font-family: 'Sofia Sans', sans-serif;
+        margin-bottom: 40px;
+      }
+
+    .formative{
+        margin: 20px;
+        background-color: #525252;
+    }
+    .formative h1, p{
+        margin: 10px;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .list-group .list-group-item{
+        background-color: #c5c5c5;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .arrow:hover{
+        cursor: pointer;
+        color: #389ca7;;
+    }
+
+    .page{
+        border-radius: 20px;
+    }

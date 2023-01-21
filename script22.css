@@ -108,6 +108,15 @@
   color: black;
 }
 
+.nav-link{
+  color: black;
+  font-size: 20px;
+  float: right;
+}
+
+.nav-link:hover{
+  color: #29727a;
+}
 
 .dropdown-item:active{
   background-color: #398d96;
@@ -116,29 +125,20 @@
   background-color: whitesmoke;
 }
 
-
-
-.material-icons:hover{
-  color: #29727a;
+@media screen and (max-width:768px) {
+  .nav-link{
+    font-size: 15px;
+  }
 }
-.cal-days .btn{
-  font-family: 'Montserrat', sans-serif;
+@media screen and (max-width:530px) {
+  .nav-link{
+    font-size: 10px;
+  }
 }
-.cal-month, .cal-days, .cal-weekdays {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  align-items: center;
-  text-align: center;
-}
-
-.cal-days .btn:active{
-  background-color: #dffcff;
-  border: 1px solid #29727a;
+@media screen and (max-width:505px) {
+  .nav-link{
+    font-size: 7.5px;
+  }
 }
 
-.cal-month-name{
-  text-align: center;
-  grid-column-end: 7;
-  grid-column-start: 2;
-}
 
